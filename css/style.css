@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#word {
+    margin-top: 4rem;
+    /* Prøv selv: ændr font-size (fx til 4rem eller 2rem), og se hvordan teksten skalerer */
+    font-size: 3rem;
+    /* Prøv selv: ændr color til en anden farve (fx "crimson" eller "#333"), og se resultatet */
+    color: darkcyan;
+    cursor: pointer; /* Viser en hånd-cursor, så det er tydeligt, at teksten kan klikkes */
+}
+
+/* Prøv selv: ændr opacity-værdien herunder (fx til 0.5), og se hvor meget teksten dæmpes,
+   når musen holdes over den */
+#word:hover {
+    opacity: 0.8;
+}
